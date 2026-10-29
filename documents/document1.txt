@@ -1,0 +1,4 @@
+Machine learning is a branch of artificial intelligence.
+It allows computers to learn from data and improve their performance.
+Machine learning is widely used in healthcare and finance.
+Artificial intelligence is changing the modern world.

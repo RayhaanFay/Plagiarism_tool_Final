@@ -1,0 +1,11 @@
+# Compiled binaries
+*.exe
+*.o
+*.out
+
+# Reports (optional - remove if you want to track these)
+# reports/
+
+# OS files
+.DS_Store
+Thumbs.db

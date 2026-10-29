@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plagiarism Detector</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Plagiarism Detector</h1>
+
+        <p class="subtitle">
+            Compare two documents using KMP and Rabin-Karp algorithms.
+        </p>
+
+        <div class="upload-area">
+
+            <div class="document-box">
+                <h2>Document 1</h2>
+
+                <input type="file" id="document1" accept=".txt">
+
+                <p id="file1Name">No file selected</p>
+            </div>
+
+
+            <div class="document-box">
+                <h2>Document 2</h2>
+
+                <input type="file" id="document2" accept=".txt">
+
+                <p id="file2Name">No file selected</p>
+            </div>
+
+        </div>
+
+
+        <button id="checkButton">
+            Check Plagiarism
+        </button>
+
+
+        <div class="result-box">
+
+            <h2>Result</h2>
+
+            <div class="percentage">
+                0%
+            </div>
+
+            <p id="resultMessage">
+                Upload two documents to begin.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

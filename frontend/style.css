@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.upload-area {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.document-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 45%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.document-box h2 {
+    margin-bottom: 20px;
+}
+
+.document-box input {
+    margin-bottom: 15px;
+}
+
+.document-box p {
+    color: #666;
+}
+
+button {
+    margin-top: 30px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
+
+.result-box {
+    background: white;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.result-box h2 {
+    margin-bottom: 20px;
+}
+
+.percentage {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#resultMessage {
+    color: #666;
+}

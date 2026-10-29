@@ -1,0 +1,18 @@
+============================================
+        PLAGIARISM DETECTION REPORT
+============================================
+
+Similarity Percentage : 42.86%
+
+KMP Matches           : 3
+Rabin-Karp Matches    : 3
+
+--------------------------------------------
+MATCHING CONTENT
+--------------------------------------------
+
+1. machine learning is a branch
+2. computers to learn from data
+3. is changing the modern world
+
+============================================

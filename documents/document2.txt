@@ -1,0 +1,4 @@
+Machine learning is a branch of artificial intelligence.
+It allows computers to learn from data and improve their performance.
+Deep learning is used for image recognition.
+Artificial intelligence is changing the modern world.
